@@ -44,7 +44,7 @@ const juego = ()=>{
         const opciones = ['piedra', 'papel', 'tijera'];
         const eleccionCpu = opciones[Math.floor(Math.random() * opciones.length)];
         
-        imagenObjetivoCpu.src = `../IMAGES/${eleccionCpu}.png`;
+        imagenObjetivoCpu.src = `./${eleccionCpu}.png`;
         return eleccionCpu;
     }
 
